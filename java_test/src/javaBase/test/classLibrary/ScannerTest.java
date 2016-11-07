@@ -1,4 +1,4 @@
-package classLibrary;
+package javaBase.test.classLibrary;
 import java.io.File;
 import java.util.Scanner;
 /**

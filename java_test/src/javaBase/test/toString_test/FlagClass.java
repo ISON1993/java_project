@@ -1,4 +1,4 @@
-package toString_test;
+package javaBase.test.toString_test;
 
 /**
  * Created by user on 2016/10/25.

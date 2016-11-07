@@ -1,4 +1,4 @@
-package ploymorphism;
+package javaBase.test.ploymorphism;
 
 /**
  * Created by user on 2016/10/29.
@@ -9,8 +9,8 @@ public class SonClass extends FatherClass{
         System.out.println("sonClass ordinary method");
     }
     public String play(){
-        System.out.println("sonClass test method");
-        return "sonClass test method";
+        System.out.println("sonClass javaBase.test method");
+        return "sonClass javaBase.test method";
     }
 
     public static void main(String[] args) {

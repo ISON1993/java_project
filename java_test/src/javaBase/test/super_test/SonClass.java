@@ -1,4 +1,4 @@
-package super_test;
+package javaBase.test.super_test;
 
 /**
  * Created by user on 2016/10/27.

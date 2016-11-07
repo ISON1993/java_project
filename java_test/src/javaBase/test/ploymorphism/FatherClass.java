@@ -1,4 +1,4 @@
-package ploymorphism;
+package javaBase.test.ploymorphism;
 
 /**
  * Created by user on 2016/10/29.
@@ -9,7 +9,7 @@ public class FatherClass {
         System.out.println("fatherClass ordinary method");
     }
     public String play(){
-        System.out.println("fatherClass test method");
-        return "fatherClass test method";
+        System.out.println("fatherClass javaBase.test method");
+        return "fatherClass javaBase.test method";
     }
 }

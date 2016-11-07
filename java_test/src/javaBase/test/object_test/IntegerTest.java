@@ -1,4 +1,4 @@
-package object_test;
+package javaBase.test.object_test;
 
 /**
  * Created by user on 2016/10/26.

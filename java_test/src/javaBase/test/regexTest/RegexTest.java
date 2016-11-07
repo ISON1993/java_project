@@ -1,4 +1,4 @@
-package regexTest;
+package javaBase.test.regexTest;
 
 import java.util.Arrays;
 import java.util.regex.Matcher;
