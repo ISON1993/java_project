@@ -9,8 +9,6 @@ import java.util.function.Predicate;
  * Created by user on 2016/11/6.
  */
 public class LambdaTest {
-    String s = "hello";
-    Integer a = 10;
     public static void main(String[] args) {
         Collection books = new ArrayList();
         books.add("book1");
