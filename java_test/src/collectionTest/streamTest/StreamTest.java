@@ -24,7 +24,7 @@ public class StreamTest {
         //System.out.println(list.stream().map(String::toUpperCase).collect(Collectors.toCollection(ArrayList::new)));
         System.out.println(outList);
         System.out.println(list.stream().collect(Collectors.joining()).toString());
-        list.forEach(ele -> System.out.println(ele.length()));
+        list.forEach(ele -> System.out.println());
 
         String[] inputStr1 = {"aaaa", "bbbbb", "ccccc","ddddd"};
         String[] inputStr2 = {"aaaa", "bbbbb", "ccccc","ddddd"};
