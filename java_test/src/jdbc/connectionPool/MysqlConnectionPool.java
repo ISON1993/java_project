@@ -6,6 +6,6 @@ package jdbc.connectionPool;
  */
 public class MysqlConnectionPool {
     public static void main(String[] args) {
-         
+
     }
 }
