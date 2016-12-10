@@ -1,5 +1,9 @@
 package jdbc.connectionPool;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
@@ -11,7 +15,8 @@ import java.util.Map;
  * Created by tuzhenyu on 16-12-7.
  * tuzhenyu
  */
-
+@Setter
+@Getter
 public class Pool {
     public String user;
     public String password;
