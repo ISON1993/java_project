@@ -15,7 +15,7 @@ class SetTest{
 }
 public class HashSetTest {
     public static void main(String[] args) {
-        HashSet hs = new HashSet();
+        HashSet hs = new HashSet    ();
         hs.add(new SetTest());
         hs.add(new SetTest());
         hs.add(new SetTest());
