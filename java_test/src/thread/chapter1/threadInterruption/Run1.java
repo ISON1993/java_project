@@ -1,4 +1,4 @@
-package thread.threadInterruption;
+package thread.chapter1.threadInterruption;
 
 /**
  * Created by tuzhenyu on 17-1-9.

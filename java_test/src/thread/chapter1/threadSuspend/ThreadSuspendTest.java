@@ -1,4 +1,4 @@
-package thread.threadSuspend;
+package thread.chapter1.threadSuspend;
 
 /**
  * Created by tuzhenyu on 17-2-25.

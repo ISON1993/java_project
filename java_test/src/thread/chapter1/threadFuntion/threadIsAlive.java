@@ -1,4 +1,4 @@
-package thread.threadFuntion;
+package thread.chapter1.threadFuntion;
 
 /**
  * Created by tuzhenyu on 17-1-9.

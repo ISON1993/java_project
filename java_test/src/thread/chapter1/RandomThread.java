@@ -1,4 +1,4 @@
-package thread;
+package thread.chapter1;
 
 /**
  * Created by tuzhenyu on 16-12-25.

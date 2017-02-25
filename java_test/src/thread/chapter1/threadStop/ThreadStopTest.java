@@ -1,6 +1,4 @@
-package thread.threadStop;
-
-import javaBase.classLibrary.SystemTest;
+package thread.chapter1.threadStop;
 
 /**
  * Created by tuzhenyu on 17-2-25.

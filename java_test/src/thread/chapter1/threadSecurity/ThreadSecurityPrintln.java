@@ -1,4 +1,4 @@
-package thread.threadSecurity;
+package thread.chapter1.threadSecurity;
 
 /**
  * Created by tuzhenyu on 17-1-9.
