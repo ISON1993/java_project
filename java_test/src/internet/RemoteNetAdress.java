@@ -8,7 +8,7 @@ import java.net.InetAddress;
  */
 public class RemoteNetAdress {
     public static void main(String[] args) throws Exception{
-        InetAddress address = InetAddress.getByName("119.29.65.221");
+        InetAddress address = InetAddress.getByName("www.baidu.com");
         System.out.println("is reached?"+address.isReachable(2000));
         System.out.println(address.getHostName());
         System.out.println(address.getHostAddress());
