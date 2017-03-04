@@ -10,7 +10,9 @@ import java.net.URL;
  */
 public class Downloader {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         download();
+        System.out.println(System.currentTimeMillis()-start);
     }
 
     private static void download(){
