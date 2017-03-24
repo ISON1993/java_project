@@ -18,8 +18,9 @@ public class ProxySelectorTest {
             @Override
             public List<Proxy> select(URI uri) {
                 List<Proxy> list = new ArrayList<>();
-                list.add(new Proxy(Proxy.Type.HTTP, new InetSocketAddress(
-                        PROXY_ADDR, PROXY_PORT)));
+                list.add(new Proxy(Proxy.Type.HTTP, new InetSocketAddress(PROXY_ADDR, PROXY_PORT)));
+//                list.add(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("58.22.61.211",3128)));
+
                 return list;
             }
 
@@ -29,7 +30,6 @@ public class ProxySelectorTest {
             }
         });
 
-//        URL url = new URL("https://www.google.com.hk/?gws_rd=ssl");
         URL url = new URL("https://www.baidu.com");
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
