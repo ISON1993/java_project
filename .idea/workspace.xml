@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/databaseTranfer/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/databaseTranfer/SearchQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/databaseTranfer/Main.class" afterPath="$PROJECT_DIR$/classes/production/java_project/databaseTranfer/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/databaseTranfer/Main.java" afterPath="$PROJECT_DIR$/java_test/src/databaseTranfer/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/databaseTranfer/SearchQueue.java" afterPath="$PROJECT_DIR$/java_test/src/databaseTranfer/SearchQueue.java" />
     </list>
     <ignored path="java_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,16 +40,15 @@
       <file leaf-file-name="SearchQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_test/src/databaseTranfer/SearchQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="302">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1490427372772" expanded="true" signature="600:838" ph="SELECT * FRO... Result" />
-                <marker date="1490427372772" expanded="true" signature="600:862" ph="SELECT DISTI... Result" />
-                <marker date="1490427372772" expanded="true" signature="600:863" ph="SELECT * FRO... Result" />
-                <marker date="1490427372772" expanded="true" signature="1433:1777" ph="//..." />
-                <marker date="1490427372772" expanded="true" signature="1465:1765" ph="SELECT \&quot;ID\... Result" />
-                <marker date="1490427372772" expanded="true" signature="2134:2171" ph="INSERT INTO missingValue... " />
+                <marker date="1490427824700" expanded="true" signature="600:838" ph="SELECT * FRO... Result" />
+                <marker date="1490427824700" expanded="true" signature="600:862" ph="SELECT DISTI... Result" />
+                <marker date="1490427824700" expanded="true" signature="600:863" ph="SELECT * FRO... Result" />
+                <marker date="1490427824700" expanded="true" signature="1467:1771" ph="SELECT \&quot;ID\... Result" />
+                <marker date="1490427824700" expanded="true" signature="2492:2535" ph="INSERT INTO missingValue... " />
               </folding>
             </state>
           </provider>
@@ -848,7 +844,7 @@
       <workItem from="1489912670163" duration="1304000" />
       <workItem from="1490165732432" duration="3749000" />
       <workItem from="1490323018893" duration="8094000" />
-      <workItem from="1490403026578" duration="12236000" />
+      <workItem from="1490403026578" duration="12687000" />
     </task>
     <servers />
   </component>
@@ -885,7 +881,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268025000" />
+    <option name="totallyTimeSpent" value="268476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -1415,16 +1411,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/databaseTranfer/SearchQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="302">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1490427372772" expanded="true" signature="600:838" ph="SELECT * FRO... Result" />
-            <marker date="1490427372772" expanded="true" signature="600:862" ph="SELECT DISTI... Result" />
-            <marker date="1490427372772" expanded="true" signature="600:863" ph="SELECT * FRO... Result" />
-            <marker date="1490427372772" expanded="true" signature="1433:1777" ph="//..." />
-            <marker date="1490427372772" expanded="true" signature="1465:1765" ph="SELECT \&quot;ID\... Result" />
-            <marker date="1490427372772" expanded="true" signature="2134:2171" ph="INSERT INTO missingValue... " />
+            <marker date="1490427824700" expanded="true" signature="600:838" ph="SELECT * FRO... Result" />
+            <marker date="1490427824700" expanded="true" signature="600:862" ph="SELECT DISTI... Result" />
+            <marker date="1490427824700" expanded="true" signature="600:863" ph="SELECT * FRO... Result" />
+            <marker date="1490427824700" expanded="true" signature="1467:1771" ph="SELECT \&quot;ID\... Result" />
+            <marker date="1490427824700" expanded="true" signature="2492:2535" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
