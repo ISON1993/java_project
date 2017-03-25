@@ -11,15 +11,16 @@ import java.sql.Statement;
  */
 public class Main {
     public static void main(String[] args) {
-        Connection conn = OracleConnectionManager.getInstance().getConnection();
-        try {
-            Statement sm = conn.createStatement();
-            ResultSet rs = sm.executeQuery("SELECT * FROM \"Position\" WHERE ID BETWEEN 680 AND 730");
-            while (rs.next()) {
-                System.out.println(rs.getInt(1));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        SearchQueue searchQueue = new SearchQueue();
+        MyThread t1 = new MyThread(searchQueue);
+        MyThread t2 = new MyThread(searchQueue);
+        MyThread t3 = new MyThread(searchQueue);
+        MyThread t4 = new MyThread(searchQueue);
+        MyThread t5 = new MyThread(searchQueue);
+        t1.start();
+        t2.start();
+        t3.start();
+        t4.start();
+        t5.start();
     }
 }
