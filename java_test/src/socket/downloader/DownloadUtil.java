@@ -1,4 +1,4 @@
-package downloader;
+package socket.downloader;
 
 import java.io.RandomAccessFile;
 import java.net.HttpURLConnection;

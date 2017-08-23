@@ -1,6 +1,4 @@
-package downloader;
-
-import java.net.HttpURLConnection;
+package socket.downloader;
 
 /**
  * Created by tuzhenyu on 17-3-3.
