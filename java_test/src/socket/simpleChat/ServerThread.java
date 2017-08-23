@@ -1,4 +1,4 @@
-package socket.chat;
+package socket.simpleChat;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,7 +24,7 @@ public class ServerThread implements Runnable{
         try{
             String content ;
             while ((content=readFromClient())!=null){
-                for (Socket socket : socket.chat.MyServer.socketList){
+                for (Socket socket : MyServer.socketList){
                     PrintStream ps = new PrintStream(socket.getOutputStream());
                     ps.println(content);
                 }
@@ -39,7 +39,7 @@ public class ServerThread implements Runnable{
         try {
             return bufferedReader.readLine();
         }catch (IOException e){
-            socket.chat.MyServer.socketList.remove(socket);
+            MyServer.socketList.remove(socket);
         }
 
         return null;

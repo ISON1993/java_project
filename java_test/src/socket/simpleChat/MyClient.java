@@ -1,4 +1,4 @@
-package socket.chat;
+package socket.simpleChat;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
