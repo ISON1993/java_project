@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/niochat/NServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java_project.iws" />
@@ -38,12 +38,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java">
+      <file leaf-file-name="SimpleAioClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_test/src/thread/chapter3/CrossOperate.java" />
-        <option value="$PROJECT_DIR$/java_test/src/thread/chapter3/ThreadLocalTest.java" />
-        <option value="$PROJECT_DIR$/java_test/src/jdbc/c3p0Test/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/java_test/src/internet/InetAdressTest.java" />
         <option value="$PROJECT_DIR$/java_test/src/internet/UrlDecode.java" />
         <option value="$PROJECT_DIR$/java_test/src/internet/RemoteNetAdress.java" />
@@ -127,6 +126,9 @@
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/ClientThread.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/NServer.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/aiochat/AioServer.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/aiochat/AioClient.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioClient.java" />
       </list>
     </option>
   </component>
@@ -247,7 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="niochat" />
+              <option name="myItemId" value="aiochat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -965,7 +967,7 @@
       <workItem from="1498874351508" duration="1746000" />
       <workItem from="1500015697495" duration="193000" />
       <workItem from="1501397390948" duration="895000" />
-      <workItem from="1503455133726" duration="22323000" />
+      <workItem from="1503455133726" duration="24304000" />
     </task>
     <servers />
   </component>
@@ -1002,7 +1004,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336540000" />
+    <option name="totallyTimeSpent" value="338521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
@@ -1095,20 +1097,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/jar/netty-all-4.1.11.Final.jar!/io/netty/channel/ChannelHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jar/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/ChannelHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/netty/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1524,10 +1512,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1503556739989" expanded="false" signature="32:288" ph="..." />
+            <marker date="1503556739989" expanded="true" signature="290:352" ph="/**...*/" />
+            <marker date="1503556739989" expanded="true" signature="533:1004" ph="{...}" />
+            <marker date="1503556739989" expanded="true" signature="1052:2035" ph="{...}" />
+            <marker date="1503556739989" expanded="true" signature="1098:2029" ph="{...}" />
+            <marker date="1503556739989" expanded="true" signature="2096:2133" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/socket/niochat/NServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="38">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <marker date="1503556639137" expanded="true" signature="32:237" ph="..." />
             <marker date="1503556639137" expanded="true" signature="239:301" ph="/**...*/" />
@@ -1537,11 +1540,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java">
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="276">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <marker date="1503560210242" expanded="true" signature="32:233" ph="..." />
+            <marker date="1503560210242" expanded="true" signature="235:297" ph="/**...*/" />
+            <marker date="1503560210242" expanded="true" signature="388:827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/aiochat/SimpleAioClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
