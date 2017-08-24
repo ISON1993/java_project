@@ -10,12 +10,10 @@ import java.net.Socket;
  * @author tuzhenyu
  */
 public class ClientThread implements Runnable{
-    private Socket socket;
     private BufferedReader bufferedReader;
 
-    public ClientThread(Socket socket) throws IOException{
-        this.socket = socket;
-        this.bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+    public ClientThread(BufferedReader bufferedReader) throws IOException{
+        this.bufferedReader = bufferedReader;
     }
 
     @Override

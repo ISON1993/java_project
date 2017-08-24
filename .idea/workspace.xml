@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/simpleChat/ClientThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/simpleChat/MyClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/simpleChat/MyServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/simpleChat/ServerThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/chat/CrazyitMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/socket/chat/CrazyitProtocol.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java" afterPath="$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java" afterPath="$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java" />
@@ -44,12 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/MyServer.java">
+      <file leaf-file-name="MyClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_test/src/thread/chapter2/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/java_test/src/thread/chapter3/WaitNotifyTest.java" />
         <option value="$PROJECT_DIR$/java_test/src/thread/chapter1/threadInterruption/Run1.java" />
         <option value="$PROJECT_DIR$/java_test/src/thread/chapter3/produceConsume/OneProduceOneConsume.java" />
         <option value="$PROJECT_DIR$/java_test/src/thread/chapter3/produceConsume/StackOperate.java" />
@@ -125,13 +124,15 @@
         <option value="$PROJECT_DIR$/java_test/src/databaseSync/DataResolve.java" />
         <option value="$PROJECT_DIR$/java_test/src/proxy/FactoryProxy/Main.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/downloader/Main.java" />
-        <option value="$PROJECT_DIR$/java_test/src/socket/chat/ServerThread.java" />
-        <option value="$PROJECT_DIR$/java_test/src/socket/chat/MyServer.java" />
         <option value="$PROJECT_DIR$/java_test/src/proxy/CGLibProxy/CglibProxy.java" />
         <option value="$PROJECT_DIR$/java_test/src/proxy/CGLibProxy/Main.java" />
-        <option value="$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/simpleChat/ClientThread.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/chat/MyServer.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/chat/CrazyitMap.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/chat/CrazyitProtocol.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java" />
+        <option value="$PROJECT_DIR$/java_test/src/socket/chat/ServerThread.java" />
       </list>
     </option>
   </component>
@@ -287,47 +288,7 @@
       <recent name="$PROJECT_DIR$/java_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
-    <configuration default="false" name="DatabaseSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="databaseSync.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="databaseSync.DatabaseSync" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FileInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="io.FileInputStreamTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_project" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MyClient (1)">
     <configuration default="false" name="DatabaseOracle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -376,6 +337,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="socket.simpleChat.MyClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="socket.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="socket.chat.MyServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="socket.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="socket.chat.MyClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -834,19 +835,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DatabaseSync" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileInputStreamTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DatabaseOracle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyServer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MyClient" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DatabaseOracle" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyServer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MyClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MyServer (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyClient (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyClient" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DatabaseOracle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileInputStreamTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DatabaseSync" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyClient (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyServer (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DatabaseOracle" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -970,7 +971,7 @@
       <workItem from="1498874351508" duration="1746000" />
       <workItem from="1500015697495" duration="193000" />
       <workItem from="1501397390948" duration="895000" />
-      <workItem from="1503455133726" duration="7562000" />
+      <workItem from="1503455133726" duration="18275000" />
     </task>
     <servers />
   </component>
@@ -1007,7 +1008,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321779000" />
+    <option name="totallyTimeSpent" value="332492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
@@ -1022,7 +1023,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18789144" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26725402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1035,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26284876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1814301" sideWeight="0.50417536" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1091,7 +1092,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1100,20 +1101,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_test/src/thread/javaShell/JavaShellTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/junit/Junit/MessageUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/junit/Junit/TestJunit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1479,44 +1466,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/ServerThread.java">
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/CrazyitMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
-            <marker date="1503469236351" expanded="false" signature="29:138" ph="..." />
-            <marker date="1503469236351" expanded="true" signature="140:202" ph="/**...*/" />
-            <marker date="1503469236351" expanded="true" signature="286:657" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1503469231951" expanded="false" signature="29:138" ph="..." />
-            <marker date="1503469231951" expanded="true" signature="140:202" ph="/**...*/" />
-            <marker date="1503469231951" expanded="true" signature="378:513" ph="{...}" />
-            <marker date="1503469231951" expanded="true" signature="551:796" ph="{...}" />
+            <marker date="1503539417969" expanded="true" signature="43:105" ph="/**...*/" />
+            <marker date="1503539417969" expanded="false" signature="248:258" ph=" { " />
+            <marker date="1503539417969" expanded="false" signature="277:283" ph=" }" />
+            <marker date="1503539417969" expanded="true" signature="318:501" ph="{...}" />
+            <marker date="1503539417969" expanded="true" signature="531:678" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="268">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1503539098217" expanded="true" signature="29:123" ph="..." />
+            <marker date="1503539098217" expanded="true" signature="125:187" ph="/**...*/" />
+            <marker date="1503539098217" expanded="true" signature="350:538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <marker date="1503543532393" expanded="true" signature="29:236" ph="..." />
+            <marker date="1503543532393" expanded="true" signature="238:300" ph="/**...*/" />
+            <marker date="1503543532393" expanded="true" signature="503:540" ph="{...}" />
+            <marker date="1503543532393" expanded="true" signature="577:2356" ph="{...}" />
+            <marker date="1503543532393" expanded="true" signature="2400:2528" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1503541530305" expanded="false" signature="29:138" ph="..." />
+            <marker date="1503541530305" expanded="true" signature="140:202" ph="/**...*/" />
+            <marker date="1503541530305" expanded="true" signature="367:420" ph="{...}" />
+            <marker date="1503541530305" expanded="true" signature="458:703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/CrazyitProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <marker date="1503542948333" expanded="true" signature="22:84" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
