@@ -7,12 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/mybatis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/mybatis/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/mybatis/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/java_project.iml" afterPath="$PROJECT_DIR$/.idea/java_project.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/mybatis/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatis/Main.class" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatis/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatis/mapping/userMapper.xml" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatis/mapping/userMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatis/Main.java" afterPath="$PROJECT_DIR$/java_test/src/mybatis/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml" afterPath="$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml" />
     </list>
     <ignored path="java_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,13 +41,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="userMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="492">
+              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding>
-                <marker date="1504506848226" expanded="true" signature="746:779" ph="select * fro... users" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,9 +58,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_test/src/downloader/Main.java" />
-        <option value="$PROJECT_DIR$/java_test/src/Main.java" />
         <option value="$PROJECT_DIR$/java_test/src/internet/HttpPost.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/socketConnect/ServerSoclket.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/socketConnect/ClientSocket.java" />
@@ -130,8 +128,10 @@
         <option value="$PROJECT_DIR$/java_test/src/socket/aiochat/AIOServer.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/NServer.java" />
         <option value="$PROJECT_DIR$/java_test/src/mybatis/domain/User.java" />
-        <option value="$PROJECT_DIR$/java_test/src/mybatis/config.xml" />
+        <option value="$PROJECT_DIR$/java_test/src/mybatis/domain/UserMapper.java" />
+        <option value="$PROJECT_DIR$/java_test/src/mybatis/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/java_test/src/mybatis/Main.java" />
+        <option value="$PROJECT_DIR$/java_test/src/mybatis/config.xml" />
         <option value="$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml" />
       </list>
     </option>
@@ -975,7 +975,7 @@
       <workItem from="1503620592739" duration="11095000" />
       <workItem from="1503707126392" duration="2708000" />
       <workItem from="1504243044309" duration="404000" />
-      <workItem from="1504502319487" duration="4892000" />
+      <workItem from="1504502319487" duration="6146000" />
     </task>
     <servers />
   </component>
@@ -1012,7 +1012,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362579000" />
+    <option name="totallyTimeSpent" value="363833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
@@ -1105,20 +1105,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_test/src/io/RandomAccessFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/io/PrintStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/io/ListFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1436,18 +1422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <marker date="1504505290254" expanded="true" signature="32:68" ph="..." />
-            <marker date="1504505290254" expanded="true" signature="70:131" ph="/**...*/" />
-            <marker date="1504505290254" expanded="true" signature="132:147" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1601,38 +1575,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/config.xml">
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="138">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <marker date="1504505531898" expanded="true" signature="168:815" ph="..." />
-            <marker date="1504505531898" expanded="true" signature="209:708" ph="..." />
-            <marker date="1504505531898" expanded="true" signature="248:688" ph="..." />
-            <marker date="1504505531898" expanded="true" signature="365:665" ph="..." />
-            <marker date="1504505531898" expanded="true" signature="723:797" ph="..." />
+            <marker date="1504505290254" expanded="true" signature="32:68" ph="..." />
+            <marker date="1504505290254" expanded="true" signature="70:131" ph="/**...*/" />
+            <marker date="1504505290254" expanded="true" signature="132:147" ph="@{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/Main.java">
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1504506715566" expanded="true" signature="25:259" ph="..." />
-            <marker date="1504506715566" expanded="true" signature="261:322" ph="/**...*/" />
-            <marker date="1504506715566" expanded="true" signature="386:831" ph="{...}" />
+            <marker date="1504510633515" expanded="true" signature="168:815" ph="..." />
+            <marker date="1504510633515" expanded="true" signature="209:708" ph="..." />
+            <marker date="1504510633515" expanded="true" signature="248:688" ph="..." />
+            <marker date="1504510633515" expanded="true" signature="365:665" ph="..." />
+            <marker date="1504510633515" expanded="true" signature="723:797" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1504510274159" expanded="true" signature="51:112" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/mapping/userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="115">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
-            <marker date="1504506848226" expanded="true" signature="746:779" ph="select * fro... users" />
+            <marker date="1504510788483" expanded="true" signature="152:327" ph="..." />
+            <marker date="1504510788483" expanded="true" signature="373:798" ph="..." />
+            <marker date="1504510788483" expanded="true" signature="383:596" ph="..." />
+            <marker date="1504510788483" expanded="true" signature="608:639" ph="..." />
+            <marker date="1504510788483" expanded="true" signature="687:788" ph="..." />
+            <marker date="1504510788483" expanded="true" signature="742:775" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatis/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
