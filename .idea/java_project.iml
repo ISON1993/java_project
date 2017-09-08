@@ -13,7 +13,9 @@
           <root url="jar://$MODULE_DIR$/jar/c3p0-0.9.5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/c3p0-0.9.5.2-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -94,7 +96,9 @@
           <root url="jar://$MODULE_DIR$/jar/mybatis-3.4.4.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

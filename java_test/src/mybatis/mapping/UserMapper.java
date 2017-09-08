@@ -1,4 +1,4 @@
-package mybatis.dao;
+package mybatis.mapping;
 
 import mybatis.domain.User;
 
@@ -8,4 +8,6 @@ import mybatis.domain.User;
  */
 public interface UserMapper {
     public User getUser(int id) throws Exception;
+
+    public void insertUser(User user);
 }
