@@ -21,20 +21,21 @@ public class Main {
         SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(is);
         SqlSession session = sessionFactory.openSession();
 
-//        String statement = "mybatis.mapping.UserMapper.getUser";
-//        User user = session.selectOne(statement,1);
-//        System.out.println(user.getName());
+        String statement = "mybatis.mapping.UserMapper.getUser";
+        User user = session.selectOne(statement,1);
+        System.out.println(user.getName());
+        session.commit();
 
 //        UserMapper userMapper = session.getMapper(UserMapper.class);
 //        User user = userMapper.getUser(1);
 //        System.out.println(user.getName());
 
-        User user = new User();
-        user.setName("lulu");
-        user.setPassword("123123");
-        user.setScore("99");
-        String statement = "mybatis.mapping.UserMapper.insertUser";
-        session.insert(statement,user);
+//        User user = new User();
+//        user.setName("lulu");
+//        user.setPassword("123123");
+//        user.setScore("99");
+//        String statement = "mybatis.mapping.UserMapper.insertUser";
+//        session.insert(statement,user);
 
     }
 }
