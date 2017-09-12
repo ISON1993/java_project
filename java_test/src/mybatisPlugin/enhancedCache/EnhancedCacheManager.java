@@ -1,5 +1,6 @@
 package mybatisPlugin.enhancedCache;
 
+import org.apache.ibatis.cache.Cache;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.parsing.XNode;
 import org.apache.ibatis.parsing.XPathParser;
@@ -15,8 +16,10 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class EnhancedCacheManager {
     private boolean isInitialized = false;
-    private boolean cacheEnabled = false;
+    public boolean cacheEnabled = false;
     private Map<String,Set<String>> observers = new ConcurrentHashMap<>();
+    private Map<String,Cache> holds = new ConcurrentHashMap<>();
+
     private static EnhancedCacheManager enhancedCacheManager;
 
     public static EnhancedCacheManager getEnhancedCacheManager(){
@@ -54,5 +57,20 @@ public class EnhancedCacheManager {
 
     public boolean hasInitialized(){
         return isInitialized;
+    }
+
+    public void appendStatementCache(String statementId,Cache cache){
+        if (holds.containsKey(statementId)&&holds.get(statementId)!=null){
+            return;
+        }
+        holds.put(statementId,cache);
+    }
+
+    public void refreshCacheKey(CacheKeysPool cacheKeysPool){
+
+    }
+
+    public void clearRelatedCaches(Set<String> set){
+
     }
 }
