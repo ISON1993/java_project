@@ -22,7 +22,23 @@ public class EnhancedCachePlugin implements Interceptor{
 
     @Override
     public Object intercept(Invocation invocation) throws Throwable {
-        return null;
+        String operate = invocation.getMethod().getName();
+        Object result = null;
+        if ("query".equals(operate)){
+            result = processQuery(invocation);
+        }else if ("update".equals(operate)){
+            result = processUpdate(invocation);
+        }
+
+        return result;
+    }
+
+    private Object processQuery(Invocation invocation){
+        return invocation;
+    }
+
+    private Object processUpdate(Invocation invocation){
+        return invocation;
     }
 
     @Override

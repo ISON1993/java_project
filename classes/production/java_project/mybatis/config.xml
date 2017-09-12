@@ -2,13 +2,13 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <settings>
-        <setting name="cacheEnabled" value="true"/>
-    </settings>
+    <!--<settings>-->
+        <!--<setting name="cacheEnabled" value="true"/>-->
+    <!--</settings>-->
 
-    <plugins>
-        <plugin interceptor="mybatis.interceptor.ExamplePlugin"></plugin>
-    </plugins>
+    <!--<plugins>-->
+        <!--<plugin interceptor="mybatis.interceptor.ExamplePlugin"></plugin>-->
+    <!--</plugins>-->
 
     <environments default="development">
         <environment id="development">

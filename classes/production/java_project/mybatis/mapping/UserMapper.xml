@@ -3,7 +3,7 @@
 
 <mapper namespace="mybatis.mapping.UserMapper">
 
-    <cache type="mybatis.redis.RedisCache"/>
+    <!--<cache type="mybatis.redis.RedisCache"/>-->
 
     <select id="getUser" parameterType="int" resultType="mybatis.domain.User" useCache="true">
         select * from user where id=#{id}
@@ -12,4 +12,8 @@
     <insert id="insertUser" parameterType="mybatis.domain.User">
         INSERT INTO user (name,password,score) VALUES (#{name},#{password},#{score})
     </insert>
+
+    <update id="updateUserScore" parameterType="mybatis.domain.User">
+        UPDATE user set score = #{score} where id=#{id}
+    </update>
 </mapper>

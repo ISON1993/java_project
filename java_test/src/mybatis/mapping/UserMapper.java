@@ -10,4 +10,6 @@ public interface UserMapper {
     public User getUser(int id) throws Exception;
 
     public void insertUser(User user);
+
+    public void updateUserScore(User user);
 }
