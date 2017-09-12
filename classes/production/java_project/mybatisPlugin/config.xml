@@ -6,9 +6,12 @@
         <setting name="cacheEnabled" value="true"/>
     </settings>
 
-    <!--<plugins>-->
-        <!--<plugin interceptor="mybatis.interceptor.ExamplePlugin"></plugin>-->
-    <!--</plugins>-->
+    <plugins>
+        <plugin interceptor="mybatisPlugin.enhancedCache.EnhancedCachePlugin">
+            <property name="dependency" value="mybatisPlugin/dependencys.xml"/>
+            <property name="cacheEnabled" value="true"/>
+        </plugin>
+    </plugins>
 
     <environments default="development">
         <environment id="development">

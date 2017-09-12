@@ -17,6 +17,9 @@ import java.util.Properties;
         @Signature(type = Executor.class,method = "update",args = {MappedStatement.class, Object.class})
 })
 public class EnhancedCachePlugin implements Interceptor{
+
+    EnhancedCacheManager enhancedCacheManager = EnhancedCacheManager.getEnhancedCacheManager();
+
     @Override
     public Object intercept(Invocation invocation) throws Throwable {
         return null;
@@ -29,6 +32,7 @@ public class EnhancedCachePlugin implements Interceptor{
 
     @Override
     public void setProperties(Properties properties) {
-
+        if (!enhancedCacheManager.hasInitialized())
+            enhancedCacheManager.initialize(properties);
     }
 }
