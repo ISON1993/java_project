@@ -8,12 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/Main.class" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/enhancedCache/EnhancedCacheManager.class" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/enhancedCache/EnhancedCacheManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/enhancedCache/EnhancedCachePlugin.class" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatisPlugin/enhancedCache/EnhancedCachePlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java" afterPath="$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/CacheKeysPool.java" afterPath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/CacheKeysPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCacheManager.java" afterPath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java" afterPath="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java" />
     </list>
     <ignored path="java_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,14 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Plugin.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
-                <element signature="e#2743#2766#0" expanded="true" />
-                <element signature="e#3455#3465#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,11 +133,11 @@
         <option value="$PROJECT_DIR$/java_test/src/mybatis/Main.java" />
         <option value="$PROJECT_DIR$/java_test/src/mybatis/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/java_test/src/mybatis/config.xml" />
-        <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java" />
-        <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java" />
         <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/config.xml" />
         <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/CacheKeysPool.java" />
         <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCacheManager.java" />
+        <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java" />
+        <option value="$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java" />
       </list>
     </option>
   </component>
@@ -998,7 +994,7 @@
       <workItem from="1505118953845" duration="1689000" />
       <workItem from="1505132750951" duration="3296000" />
       <workItem from="1505178539150" duration="19795000" />
-      <workItem from="1505264608885" duration="1399000" />
+      <workItem from="1505264608885" duration="2524000" />
     </task>
     <servers />
   </component>
@@ -1035,11 +1031,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498094000" />
+    <option name="totallyTimeSpent" value="499219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1366" height="750" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1050,7 +1046,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18789144" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26725402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1058,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1814301" sideWeight="0.50417536" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1127,19 +1123,19 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/executor/CachingExecutor.java</url>
-          <line>95</line>
+          <url>file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java</url>
+          <line>90</line>
           <properties />
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java</url>
-          <line>75</line>
+          <line>84</line>
           <properties />
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1754,22 +1750,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java">
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/CacheKeysPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="332">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <marker date="1505265638289" expanded="true" signature="31:299" ph="..." />
-            <marker date="1505265638289" expanded="true" signature="301:363" ph="/**...*/" />
-            <marker date="1505265638289" expanded="true" signature="427:1531" ph="{...}" />
+            <marker date="1505265710485" expanded="true" signature="45:182" ph="..." />
+            <marker date="1505265710485" expanded="false" signature="274:294" ph="&lt;~&gt;" />
+            <marker date="1505265710485" expanded="true" signature="337:440" ph="{...}" />
+            <marker date="1505265710485" expanded="false" signature="496:502" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="530:533" ph=" }" />
+            <marker date="1505265710485" expanded="true" signature="588:697" ph="{...}" />
+            <marker date="1505265710485" expanded="false" signature="738:744" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="768:771" ph=" }" />
+            <marker date="1505265710485" expanded="false" signature="794:800" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="813:816" ph=" }" />
+            <marker date="1505265710485" expanded="false" signature="847:853" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="874:877" ph=" }" />
+            <marker date="1505265710485" expanded="false" signature="929:935" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="947:950" ph=" }" />
+            <marker date="1505265710485" expanded="false" signature="1003:1009" ph=" { " />
+            <marker date="1505265710485" expanded="false" signature="1037:1040" ph=" }" />
+            <marker date="1505265710485" expanded="true" signature="1084:1244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1504829641197" expanded="false" signature="0:649" ph="/**...*/" />
+            <marker date="1504829641197" expanded="false" signature="692:941" ph="..." />
+            <marker date="1504829641197" expanded="true" signature="943:975" ph="/**...*/" />
+            <marker date="1504829641197" expanded="true" signature="1238:1343" ph="{...}" />
+            <marker date="1504829641197" expanded="true" signature="1413:1807" ph="{...}" />
+            <marker date="1504829641197" expanded="true" signature="1905:2257" ph="{...}" />
+            <marker date="1504829641197" expanded="true" signature="2344:3308" ph="{...}" />
+            <marker date="1504829641197" expanded="true" signature="2743:2766" ph="&lt;~&gt;" />
+            <marker date="1504829641197" expanded="true" signature="3411:3742" ph="{...}" />
+            <marker date="1504829641197" expanded="true" signature="3455:3465" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <marker date="1505265932537" expanded="true" signature="45:324" ph="..." />
+            <marker date="1505265932537" expanded="true" signature="326:388" ph="/**...*/" />
+            <marker date="1505265932537" expanded="true" signature="843:941" ph="{...}" />
+            <marker date="1505265932537" expanded="true" signature="992:2111" ph="{...}" />
+            <marker date="1505265932537" expanded="false" signature="2148:2158" ph=" { " />
+            <marker date="1505265932537" expanded="false" signature="2179:2185" ph=" }" />
+            <marker date="1505265932537" expanded="true" signature="2255:2405" ph="{...}" />
+            <marker date="1505265932537" expanded="false" signature="2467:2477" ph=" { " />
+            <marker date="1505265932537" expanded="false" signature="2516:2522" ph=" }" />
+            <marker date="1505265932537" expanded="true" signature="2575:3078" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/executor/CachingExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="79">
+          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
           <folding>
             <marker date="1504829641197" expanded="false" signature="0:649" ph="/**...*/" />
             <marker date="1504829641197" expanded="false" signature="694:1347" ph="..." />
@@ -1801,79 +1849,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/CacheKeysPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <marker date="1505265710485" expanded="true" signature="45:182" ph="..." />
-            <marker date="1505265710485" expanded="false" signature="274:294" ph="&lt;~&gt;" />
-            <marker date="1505265710485" expanded="true" signature="337:440" ph="{...}" />
-            <marker date="1505265710485" expanded="false" signature="496:502" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="530:533" ph=" }" />
-            <marker date="1505265710485" expanded="true" signature="588:697" ph="{...}" />
-            <marker date="1505265710485" expanded="false" signature="738:744" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="768:771" ph=" }" />
-            <marker date="1505265710485" expanded="false" signature="794:800" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="813:816" ph=" }" />
-            <marker date="1505265710485" expanded="false" signature="847:853" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="874:877" ph=" }" />
-            <marker date="1505265710485" expanded="false" signature="929:935" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="947:950" ph=" }" />
-            <marker date="1505265710485" expanded="false" signature="1003:1009" ph=" { " />
-            <marker date="1505265710485" expanded="false" signature="1037:1040" ph=" }" />
-            <marker date="1505265710485" expanded="true" signature="1084:1244" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <marker date="1505265932537" expanded="true" signature="45:324" ph="..." />
-            <marker date="1505265932537" expanded="true" signature="326:388" ph="/**...*/" />
-            <marker date="1505265932537" expanded="true" signature="843:941" ph="{...}" />
-            <marker date="1505265932537" expanded="true" signature="992:2111" ph="{...}" />
-            <marker date="1505265932537" expanded="false" signature="2148:2158" ph=" { " />
-            <marker date="1505265932537" expanded="false" signature="2179:2185" ph=" }" />
-            <marker date="1505265932537" expanded="true" signature="2255:2405" ph="{...}" />
-            <marker date="1505265932537" expanded="false" signature="2467:2477" ph=" { " />
-            <marker date="1505265932537" expanded="false" signature="2516:2522" ph=" }" />
-            <marker date="1505265932537" expanded="true" signature="2575:3078" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/enhancedCache/EnhancedCachePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <marker date="1505223915177" expanded="true" signature="45:420" ph="..." />
-            <marker date="1505223915177" expanded="true" signature="422:484" ph="/**...*/" />
-            <marker date="1505223915177" expanded="true" signature="485:1015" ph="@{...}" />
-            <marker date="1505223915177" expanded="false" signature="1203:1211" ph="&lt;~&gt;" />
-            <marker date="1505223915177" expanded="true" signature="1394:1795" ph="{...}" />
-            <marker date="1505223915177" expanded="true" signature="1868:2699" ph="{...}" />
-            <marker date="1505223915177" expanded="true" signature="2773:2995" ph="{...}" />
-            <marker date="1505223915177" expanded="true" signature="3069:3169" ph="{...}" />
-            <marker date="1505223915177" expanded="true" signature="3202:3349" ph="{...}" />
-            <marker date="1505223915177" expanded="false" signature="3404:3415" ph=" { " />
-            <marker date="1505223915177" expanded="false" signature="3447:3453" ph=" }" />
-            <marker date="1505223915177" expanded="true" signature="3522:3638" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="45:420" ph="..." />
+            <marker date="1505268041909" expanded="true" signature="422:484" ph="/**...*/" />
+            <marker date="1505268041909" expanded="true" signature="485:1015" ph="@{...}" />
+            <marker date="1505268041909" expanded="false" signature="1203:1211" ph="&lt;~&gt;" />
+            <marker date="1505268041909" expanded="true" signature="1394:1983" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="2056:2887" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="2961:3183" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="3257:3357" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="3433:3537" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="3610:3866" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="3899:4046" ph="{...}" />
+            <marker date="1505268041909" expanded="true" signature="4083:4167" ph="{...}" />
+            <marker date="1505268041909" expanded="false" signature="4222:4233" ph=" { " />
+            <marker date="1505268041909" expanded="false" signature="4265:4271" ph=" }" />
+            <marker date="1505268041909" expanded="true" signature="4340:4456" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+    <entry file="file://$PROJECT_DIR$/java_test/src/mybatisPlugin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="177">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
-            <element signature="e#2743#2766#0" expanded="true" />
-            <element signature="e#3455#3465#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

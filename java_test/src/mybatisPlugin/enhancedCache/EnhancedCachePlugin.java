@@ -39,6 +39,10 @@ public class EnhancedCachePlugin implements Interceptor{
             result = processUpdate(invocation);
         }else if ("commit".equals(operate)){
             result = processCommit(invocation);
+        }else if ("rollback".equals(operate)){
+            result = processRollback(invocation);
+        }else if ("close".equals(operate)){
+            result = processClose(invocation);
         }
 
         return result;
@@ -77,9 +81,31 @@ public class EnhancedCachePlugin implements Interceptor{
         return result;
     }
 
+    private Object processRollback(Invocation invocation) throws Throwable{
+        Object result = invocation.proceed();
+        clearSessionDate();
+        return result;
+    }
+
+    private Object processClose(Invocation invocation) throws Throwable{
+        Object result = invocation.proceed();
+        boolean forceRollback = (Boolean)invocation.getArgs()[0];
+        if (forceRollback){
+            clearSessionDate();
+        }else {
+            refreshCache();
+        }
+        return result;
+    }
+
     private void refreshCache(){
         enhancedCacheManager.refreshCacheKey(queryCacheOnCommit);
         enhancedCacheManager.clearRelatedCaches(updateStatementOnCommit);
+    }
+
+    private void clearSessionDate(){
+        queryCacheOnCommit.clear();
+        updateStatementOnCommit.clear();
     }
 
     @Override
