@@ -19,6 +19,7 @@ public class EnhancedCacheManager {
     public boolean cacheEnabled = false;
     private Map<String,Set<String>> observers = new ConcurrentHashMap<>();
     private Map<String,Cache> holds = new ConcurrentHashMap<>();
+    private CacheKeysPool cacheKeysPoolAll = new CacheKeysPool();
 
     private static EnhancedCacheManager enhancedCacheManager;
 
@@ -67,10 +68,20 @@ public class EnhancedCacheManager {
     }
 
     public void refreshCacheKey(CacheKeysPool cacheKeysPool){
-
+        cacheKeysPoolAll.putAll(cacheKeysPool);
     }
 
     public void clearRelatedCaches(Set<String> set){
-
+        for (String updateOperationId : set){
+            Set<String> observer = observers.get(updateOperationId);
+            for (String clearQueryId : observer){
+                Cache cache = holds.get(clearQueryId);
+                Set<Object> relatedCacheKeys = cacheKeysPoolAll.get(clearQueryId);
+                for (Object o : relatedCacheKeys){
+                    cache.removeObject(o);
+                }
+//                cacheKeysPoolAll.remove(clearQueryId);
+            }
+        }
     }
 }

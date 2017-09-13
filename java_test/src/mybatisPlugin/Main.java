@@ -30,10 +30,10 @@ public class Main {
 
         Role role = new Role();
         role.setId(2);
-        role.setRole("admin");
+        role.setRole("user");
         String statement = "mybatisPlugin.mapping.RoleMapper.updateRole";
         session.update(statement,role);
-//        session.commit();
+        session.commit();
 
         String statement2 = "mybatisPlugin.mapping.UserMapper.getUserRole";
         List<User> user2 = session.selectList(statement2);
