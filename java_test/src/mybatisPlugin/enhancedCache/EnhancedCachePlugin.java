@@ -54,6 +54,10 @@ public class EnhancedCachePlugin implements Interceptor{
             Object[] args = invocation.getArgs();
             MappedStatement statement = (MappedStatement)args[0];
 
+            if (statement.isFlushCacheRequired()){
+                queryCacheOnCommit.clear();
+            }
+
             if (statement.isUseCache()&&statement.getCache()!=null){
                 enhancedCacheManager.appendStatementCache(statement.getId(),statement.getCache());
             }
