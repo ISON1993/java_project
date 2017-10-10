@@ -4,6 +4,7 @@
 <mapper namespace="mybatis.mapping.UserMapper">
 
     <!--<cache type="mybatis.redis.RedisCache"/>-->
+    <cache/>
 
     <select id="getUser" parameterType="int" resultType="mybatis.domain.User" useCache="true">
         select * from user where id=#{id}

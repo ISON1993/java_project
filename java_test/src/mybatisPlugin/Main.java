@@ -26,21 +26,21 @@ public class Main {
         for (User user : users){
             System.out.println(user.getId()+" "+ user.getName()+" "+user.getRole());
         }
-//        session.commit();
+        session.commit();
 
         Role role = new Role();
         role.setId(2);
         role.setRole("admin");
         String statement = "mybatisPlugin.mapping.RoleMapper.updateRole";
         session.update(statement,role);
-//        session.commit();
+        session.commit();
 
         String statement2 = "mybatisPlugin.mapping.UserMapper.getUserRole";
         List<User> user2 = session.selectList(statement2);
         for (User user : user2){
             System.out.println(user.getId()+" "+ user.getName()+" "+user.getRole());
         }
-//        session.commit();
+        session.commit();
 //        session.close();
     }
 }

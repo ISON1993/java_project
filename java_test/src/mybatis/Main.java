@@ -21,24 +21,27 @@ public class Main {
 //        String statement = "mybatis.mapping.UserMapper.getUser";
 //        User user = session.selectOne(statement,1);
 //        System.out.println(user.getName());
-//        session.commit();
+////        session.commit();
+//        session.close();
 
 //        UserMapper userMapper = session.getMapper(UserMapper.class);
 //        User user = userMapper.getUser(1);
 //        System.out.println(user.getName());
 
 //        User user = new User();
-//        user.setName("lulu");
+//        user.setName("liuliu");
 //        user.setPassword("123123");
-//        user.setScore("99");
+//        user.setScore("88");
 //        String statement = "mybatis.mapping.UserMapper.insertUser";
 //        session.insert(statement,user);
 //        session.commit();
+//        session.close();
+
 
         String statement0 = "mybatis.mapping.UserMapper.getUser";
         User user0 = session.selectOne(statement0,1);
         System.out.println(user0.getScore());
-//        session.commit();
+        session.commit();
 
         User user = new User();
         user.setId(1);
@@ -51,6 +54,7 @@ public class Main {
         User user1 = session.selectOne(statement1,1);
         System.out.println(user1.getScore());
 //        session.commit();
+        session.close();
 
 
     }
