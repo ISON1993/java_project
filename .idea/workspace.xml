@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/test/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/produceConsume/ConsumeThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/produceConsume/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/produceConsume/ProduceThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/mybatis/Main.class" afterPath="$PROJECT_DIR$/classes/production/java_project/mybatis/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/mybatis/Main.java" afterPath="$PROJECT_DIR$/java_test/src/mybatis/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java" afterPath="$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java" />
     </list>
     <ignored path="java_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_test/src/thread/produceConsume/Main.java">
+      <file leaf-file-name="Depot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="184">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1027,7 +1022,7 @@
       <workItem from="1507941247553" duration="15000" />
       <workItem from="1507944431175" duration="4992000" />
       <workItem from="1508027332243" duration="19000" />
-      <workItem from="1508117644769" duration="3853000" />
+      <workItem from="1508117644769" duration="6495000" />
     </task>
     <servers />
   </component>
@@ -1064,7 +1059,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="597126000" />
+    <option name="totallyTimeSpent" value="599768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
@@ -1833,19 +1828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding>
-            <marker date="1508122264559" expanded="true" signature="33:96" ph="/**...*/" />
-            <marker date="1508122264559" expanded="true" signature="197:256" ph="{...}" />
-            <marker date="1508122264559" expanded="true" signature="296:547" ph="{...}" />
-            <marker date="1508122264559" expanded="true" signature="587:831" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/thread/produceConsume/ProduceThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1876,7 +1858,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1508121970519" expanded="true" signature="32:95" ph="/**...*/" />
+            <marker date="1508121970519" expanded="true" signature="159:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/thread/produceConsume/Depot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
