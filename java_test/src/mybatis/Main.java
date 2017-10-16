@@ -41,7 +41,7 @@ public class Main {
         String statement0 = "mybatis.mapping.UserMapper.getUser";
         User user0 = session.selectOne(statement0,1);
         System.out.println(user0.getScore());
-        session.commit();
+//        session.commit();
 
         User user = new User();
         user.setId(1);
