@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a420b8a-d6c9-4554-8b4b-abe0739179ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/juc/CyclicBarrierDemo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/java_project/test/Test$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/test/Test.class" afterPath="$PROJECT_DIR$/classes/production/java_project/test/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/java_project/thread/produceConsume/Depot.class" afterPath="$PROJECT_DIR$/classes/production/java_project/thread/produceConsume/Depot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_test/src/thread/juc/CountDownLatchDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_test/src/test/Test.java" afterPath="$PROJECT_DIR$/java_test/src/test/Test.java" />
     </list>
     <ignored path="java_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CyclicBarrier.java" pinned="false" current-in-tab="true">
-        <entry file="jar:///opt/jdk/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_test/src/thread/juc/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="181" column="13" lean-forward="false" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+            <state relative-caret-position="157">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -103,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_test/src/socket/chat/MyClient.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/chat/ServerThread.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/ClientThread.java" />
         <option value="$PROJECT_DIR$/java_test/src/socket/niochat/NClient.java" />
@@ -154,6 +149,7 @@
         <option value="$PROJECT_DIR$/java_test/src/test/Test.java" />
         <option value="$PROJECT_DIR$/java_test/src/thread/juc/CyclicBarrierTest.java" />
         <option value="$PROJECT_DIR$/java_test/src/thread/juc/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/java_test/src/thread/juc/CountDownLatchDemo.java" />
       </list>
     </option>
   </component>
@@ -258,8 +254,34 @@
               <option name="myItemId" value="juc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CyclicBarrierDemo.java" />
+              <option name="myItemId" value="java_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="juc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CountDownLatchDemo.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +340,7 @@
       <recent name="$PROJECT_DIR$/java_test/src/socket/chat" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -327,26 +349,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="mybatis.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="LoadClassErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="specialSoldier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="specialSoldier.LoadClassErrorDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -407,6 +409,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="thread.juc.CyclicBarrierDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thread.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thread.juc.CountDownLatchDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -866,18 +888,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LoadClassErrorDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CountDownLatchDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LoadClassErrorDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CountDownLatchDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1049,7 +1071,7 @@
       <workItem from="1508372303265" duration="281000" />
       <workItem from="1508569422242" duration="8927000" />
       <workItem from="1508631556701" duration="196000" />
-      <workItem from="1508634626751" duration="8336000" />
+      <workItem from="1508634626751" duration="9066000" />
     </task>
     <servers />
   </component>
@@ -1086,11 +1108,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660345000" />
+    <option name="totallyTimeSpent" value="661075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1366" height="750" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1107,7 +1129,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22620791" sideWeight="0.49582464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22620791" sideWeight="0.49582464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1217,13 +1239,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/executor/statement/RoutingStatementHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/mybatis-3.4.4-sources.jar!/org/apache/ibatis/executor/statement/PreparedStatementHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1968,6 +1983,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
           <caret line="181" column="13" lean-forward="false" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+          <folding>
+            <marker date="1395128255000" expanded="false" signature="0:345" ph="/.../" />
+            <marker date="1395128255000" expanded="false" signature="384:470" ph="..." />
+            <marker date="1395128255000" expanded="true" signature="472:4046" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="4080:4666" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="4703:4742" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="4748:4790" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="4855:4896" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="4957:4985" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="5106:5135" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="5195:5373" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="5402:5512" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="5547:5726" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="5732:5854" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="5887:5979" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="5985:6053" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="6197:8256" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="7583:7771" ph="//..." />
+            <marker date="1395128255000" expanded="true" signature="8262:8877" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="8940:9118" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="9124:9542" ph="/**...*/" />
+            <marker date="1395128255000" expanded="false" signature="9580:9591" ph=" { " />
+            <marker date="1395128255000" expanded="false" signature="9611:9617" ph=" }" />
+            <marker date="1395128255000" expanded="true" signature="9623:9776" ph="/**...*/" />
+            <marker date="1395128255000" expanded="false" signature="9804:9815" ph=" { " />
+            <marker date="1395128255000" expanded="false" signature="9830:9836" ph=" }" />
+            <marker date="1395128255000" expanded="true" signature="9842:12434" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="12510:12671" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="12677:15774" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="15933:15992" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="15998:16333" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="16364:16547" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="16553:17032" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="17057:17320" ph="{...}" />
+            <marker date="1395128255000" expanded="true" signature="17326:17557" ph="/**...*/" />
+            <marker date="1395128255000" expanded="true" signature="17592:17773" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/thread/juc/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding />
         </state>
       </provider>
